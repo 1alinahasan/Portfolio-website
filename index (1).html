@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alina Hasan - Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>A</span>lina.</h2>
+        <nav class="navigation">
+            <button onclick="showSection('home')">Home</button>
+            <button onclick="showSection('bio')">Bio</button>
+            <button onclick="showSection('education')">Education</button>
+            <button onclick="showSection('resume')">Resume</button>
+            <button onclick="showSection('skills')">Skills</button>
+            <button onclick="showSection('projects')">Projects</button>
+            <button onclick="showSection('experience')">Work Experience</button>
+            <button onclick="showSection('contact')">Contact</button>
+        </nav>
+        <a href="#contact" class="btn-talk">Let's Talk</a>
+    </header>
+    
+    <section id="home" class="home">
+        <div class="content">
+            <h2>Hi, I'm <span>Alina Hasan</span></h2>
+            <h4>Computer Science Student</h4>
+            <p>Passionate about software development and data science with a strong academic background and diverse professional experiences.</p>
+<!--             <div class="btn-group">
+                <a href="#resume">View Resume</a>
+                <a href="#projects">See Projects</a>
+            </div> -->
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="bio" class="bio clearfix">
+            <img src="pic.jpeg" alt="Professional Image" width="150">
+            <h2>Professional Bio</h2>
+            <p>Alina Hasan is a dedicated and skilled Computer Science student at the University of Missouri-Kansas City. With a GPA of 3.9, she has demonstrated excellence in her studies, earning the Dean’s List scholarship. Alina is actively involved in extracurricular activities, serving as a Campus Ambassador and the Secretary of the Society of Women Engineers. She has a strong background in various programming languages, frameworks, and tools, which she has applied in her professional experiences and projects.</p>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Education Background</h2>
+            <p><strong>University of Missouri-Kansas City</strong></p>
+            <p>Bachelors of Science in Computer Science (Expected December 2024)</p>
+            <p>Awarded Dean’s List scholarship for excellence in academics. GPA: 3.9</p>
+        </section>
+
+        <section id="resume" class="resume">
+            <h2>Resume</h2>
+            <iframe src="https://drive.google.com/file/d/1g6mJtYOX2PdDCcxUZFVlw2ltAnnbUVYo/preview" width="100%" height="600"></iframe>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Structures and Algorithms</li>
+                <li>Distributed Systems</li>
+                <li>Software Engineering Principles</li>
+                <li>Object-Oriented Programming</li>
+                <li>Database Systems</li>
+                <li>Data Mining and Visualization</li>
+                <li>Data Science</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <p><strong>Face Recognition using Eigen Faces</strong> | Security and biometric authentication</p>
+            <p>Created a Python-based facial recognition system with Eigenfaces & PCA for robust security and biometric authentication. Demonstrated problem-solving skills by troubleshooting the system for better performance across various environments. Applied advanced Python programming emphasizing security through biometric solutions.</p>
+            
+            <p><strong>HeartPredict</strong> | ML Based Data Analysis to Predict Heart Attack in Patients</p>
+            <p>Utilized the R programming language to conduct in-depth analysis of healthcare datasets. Implemented machine learning algorithms to design a data-driven solution predicting the probability of heart attacks. Applied statistical techniques for hypothesis testing and regression analysis.</p>
+            
+            <p><strong>Farm2Table</strong> | Empowering Farmers to Sell Directly to Consumers</p>
+            <p>Developed a user-interaction web application using HTML CSS3 and JavaScript for farmer-to-consumer transactions. Played a key role in managing the database using MySQL ensuring efficient data handling and retrieval. Applied software engineering principles to enhance user experience and database efficiency.</p>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Work Experience</h2>
+            <p><strong>Missouri Institute of Defense & Energy</strong>, Kansas City, Missouri</p>
+            <p>Undergraduate Research Assistant (June 2024-Present)</p>
+            <ul>
+                <li>Investigated the effectiveness of Large Language Models (LLMs) for niche text classification tasks.</li>
+                <li>Conducted research on prompt engineering for LLMs focusing on improving their accuracy for a text classification task.</li>
+                <li>Performed a comparative analysis of LLMs and traditional machine learning models for a text classification task.</li>
+            </ul>
+            
+            <p><strong>CEI India Pvt LTD</strong>, Chennai, Tamil Nadu, India</p>
+            <p>Software Development Intern (June 2023-July 2023)</p>
+            <ul>
+                <li>Collaborated on enterprise-level web applications contributing to Python-based feature development.</li>
+                <li>Engaged in troubleshooting and optimization tasks to enhance system performance.</li>
+                <li>Delivered impactful presentations on software solutions ensuring effective stakeholder communication.</li>
+            </ul>
+            
+            <p><strong>Oil and Natural Gas Corporation</strong>, Vadodara, Gujarat, India</p>
+            <p>Data Science Intern (May 2023-June 2023)</p>
+            <ul>
+                <li>Engineered Python-based facial recognition system using Eigenfaces and PCA for enhanced accuracy.</li>
+                <li>Demonstrated expertise in troubleshooting and optimizing systems for seamless functionality across diverse environments.</li>
+                <li>Proficient in Python Eigenfaces PCA with a strong focus on system optimization.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/alina-hasan-/">LinkedIn</a></p>
+            <p>Mail me at <a href="mailto:1alinahasan@gmail.com">1alinahasan@gmail.com</a></p>
+            <p>Call me on +1(816) 522-1310</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/alina-hasan-/">LinkedIn</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
